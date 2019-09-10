@@ -4,6 +4,9 @@
 	<description>The Coding standard for the WordPress Coding Standards itself.</description>
 
 	<file>.</file>
+	<exclude-pattern>vendor</exclude-pattern>
+    	<exclude-pattern>yme-wp-plugins-sdk</exclude-pattern>
+    	<exclude-pattern>yme-plugin-update-checker</exclude-pattern>
 
 	<arg value="sp"/>
 	<arg name="extensions" value="php"/>
